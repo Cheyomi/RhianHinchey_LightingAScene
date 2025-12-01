@@ -4,14 +4,19 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
 
-    public void LoadScene(string Hospital)
+    public void PlayGame()
     {
-        SceneManager.LoadScene(Hospital);
+        SceneManager.LoadScene("HospitalNoTriggers");
     }
 
     public void QuitGame()
     {
         Debug.Log("Quit Game");
         Application.Quit();
+    }
+
+    public void PlayGameTriggers()
+    {
+        SceneManager.LoadScene("HospitalTriggers");
     }
 }
