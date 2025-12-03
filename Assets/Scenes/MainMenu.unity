@@ -6078,6 +6078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf33f4795ec0e754cbb53e4755d322cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Canvas: {fileID: 257403034}
 --- !u!224 &257403036 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5274956201566284223, guid: cc1b88b98e24f9d4cbd96ea657055335,
