@@ -33,10 +33,12 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
         else
-        { 
+        {
             Destroy(gameObject);
         }
         #endregion
+
+
 
         // Auto-assign manager references from child objects if not manually assigned
         inputManager ??= GetComponentInChildren<InputManager>();
